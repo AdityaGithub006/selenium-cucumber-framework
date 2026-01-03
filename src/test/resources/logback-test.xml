@@ -1,0 +1,19 @@
+<configuration>
+    <property name="LOG_PATTERN"
+              value="%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+    <!-- Optional: reduce noise -->
+    <logger name="org.openqa.selenium" level="WARN"/>
+    <logger name="io.cucumber" level="WARN"/>
+    <logger name="org.testng" level="WARN"/>
+</configuration>
