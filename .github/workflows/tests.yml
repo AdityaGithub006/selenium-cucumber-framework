@@ -21,4 +21,4 @@ jobs:
           java-version: '17'
 
       - name: Run tests
-        run: mvn clean test -Denv=qa
+        run: mvn -B clean test -Denv=qa -Dheadless=true
