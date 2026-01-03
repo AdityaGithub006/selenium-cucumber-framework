@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/AdityaGithub006/selenium-cucumber-framework/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/AdityaGithub006/selenium-cucumber-framework/actions)
+
 # Selenium Cucumber Automation Framework
 
 ------------------------------------------------------------
